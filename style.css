@@ -1,0 +1,51 @@
+.sidebar {
+    float:left;
+    width:15%;
+    background: rgb(33, 119, 233);
+ }
+
+.content {
+    float:left;
+    width:85%;
+    background-color: whitesmoke;
+}
+
+
+li, ul, td{
+    font-family: Tahoma;
+}
+
+p{
+    font-family: Tahoma;
+    margin-left: 10px;
+}
+
+h3{
+    font-family: Tahoma;
+    margin-left: 10px;
+}
+
+h1{
+    font-family: Tahoma;
+    text-align: center;
+    background-color: rgb(17, 78, 158);
+}
+h4{
+    margin-left: 10px;
+}
+
+a{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.image-1{
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
