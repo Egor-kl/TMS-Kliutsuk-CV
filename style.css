@@ -1,51 +1,59 @@
 .sidebar {
-    float:left;
-    width:15%;
+    width: 250px;
     background: rgb(33, 119, 233);
  }
 
 .content {
-    float:left;
-    width:85%;
+    width: 450px;
     background-color: whitesmoke;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-li, ul, td{
+li, ul, td {
     font-family: Tahoma;
 }
 
-p{
+p {
     font-family: Tahoma;
     margin-left: 10px;
 }
 
-h3{
+h3 {
     font-family: Tahoma;
     margin-left: 10px;
 }
 
-h1{
+h1 {
     font-family: Tahoma;
     text-align: center;
     background-color: rgb(17, 78, 158);
 }
-h4{
+
+h4 {
     margin-left: 10px;
 }
 
-a{
+a {
     text-align: center;
     font-size: large;
     font-weight: 900;
     margin-left: 15px;
 }
 
-.image-1{
+.avatar {
     text-align: center;
     margin-left: 28%;
     margin-top: 5%;
     border-radius: 50%;
     width: 120px;
     height: 120px;
+}
+
+.social-icons {
+    margin-left: 5px;
 }
